@@ -1,10 +1,11 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, PositiveInt, EmailStr
+from datetime import datetime
 
 class ContratoFuncionarios(BaseModel):
-    id: int
+    id: PositiveInt
     nome: str
-    idade: int
-    datanascimento: str
-    email: str
+    idade: PositiveInt
+    datanascimento: datetime
+    email: EmailStr
     cargo: str
     departamento: str
