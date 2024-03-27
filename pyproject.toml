@@ -30,3 +30,5 @@ build-backend = "poetry.core.masonry.api"
 [tool.taskipy.tasks]
 run = "streamlit run app.py"
 format = "black . && isort . && pydocstyle"
+test = "pytest -v"
+docs = "mkdocs serve"
