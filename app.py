@@ -39,7 +39,7 @@ def main():
         page_title="Validação de CSV", page_icon=":bar_chart:", layout="wide"
     )
 
-    st.title("Validação de CSV - DataQuality")
+    st.title("Validação de CSV - Data Quality")
 
     csv = st.file_uploader("Selecione o arquivo CSV", type=["csv"])
 
