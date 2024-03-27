@@ -8,7 +8,7 @@ from pydantic import BaseModel, EmailStr, PositiveInt
 class ContratoFuncionarios(BaseModel):
     """Classe de Contrato de Dados.
 
-    Arg:
+    Args:
         id (PositiveInt): Identificador do registro
         nome (str): Nome do funcionário
         idade (PositiveInt): Idade do funcionário
